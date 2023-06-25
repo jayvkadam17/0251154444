@@ -1,0 +1,46 @@
+Q1. Conventions followed while declaring a variable in Python:
+- Variable names should be descriptive and meaningful.
+- Variable names should start with a letter (a-z, A-Z) or an underscore (_).
+- Variable names can contain letters, digits (0-9), and underscores (_).
+- Variable names are case-sensitive.
+- It is recommended to use lowercase letters for variable names, following the snake_case convention.
+- Variable names should not be the same as Python keywords or built-in function names.
+
+Q2. If we declare a restricted keyword as a variable, it will result in a syntax error. Python keywords are reserved and cannot be used as variable names.
+
+Q3. Yes, we can declare a string as a variable name. Variable names can be assigned any valid string as long as it follows the naming conventions.
+
+Example:
+```python
+my_variable = "Hello"
+print(my_variable)
+```
+Output:
+```
+Hello
+```
+
+Q4. Yes, it is possible to declare "_" as a variable name. It is a valid variable name in Python.
+
+Example:
+```python
+_ = 10
+print(_)
+```
+Output:
+```
+10
+```
+
+Q5. In Python, variables are dynamic in nature, which means their data type can be changed during runtime. The type of a variable is determined by the value assigned to it. We can assign a value of one type to a variable and later assign a value of a different type to the same variable without any explicit type declaration.
+
+Example:
+```python
+x = 5
+print(x)  # Output: 5
+
+x = "Hello"
+print(x)  # Output: Hello
+```
+
+In the above example, the variable "x" is initially assigned an integer value of 5. Later, it is assigned a string value of "Hello". Python allows this dynamic nature of variables, making it flexible to work with different data types.
